@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate BMI</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="brand-logo"></div>
+            <div class="brand-title">BMI</div>
+            <div class="inputs">
+              <label>กรอกน้ำหนัก</label>
+              <input type="text" placeholder="น้ำหนัก" id="W"/>
+              <label>กรอกส่วนสูง</label>
+              <input type="text" placeholder="ส่วนสูง" id="H"/>
+              <button type="submit" onclick="Cal(document.getElementById('W','H').value)">CAL</button>
+            </div>
+            <h2 id="result"></h2>
+            
+            <h2 id="SUM"></h2>
+          </div>
+          
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
